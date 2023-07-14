@@ -9,5 +9,13 @@ int main()
 
 	printf("%d살 이라고?");
 
-	return 0; 
+	if (age > 21)
+	{
+		printf("늙었구만");
+	}
+	else
+	{
+		printf("어리구만");
+	}
+
 }
